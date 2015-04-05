@@ -11,7 +11,13 @@ namespace AaronSaray\SlimMiddleware;
  * Class Compress
  * @package SlimMiddleware
  */
-class Compress
+class Compress extends \Slim\Middleware
 {
-
+    /**
+     * The middleware calling function
+     */
+    public function call()
+    {
+        $this->next->call();
+    }
 }
