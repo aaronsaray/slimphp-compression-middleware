@@ -2,6 +2,6 @@
   "name": "aaronsaray/SlimPHPMiddleware",
   "type": "library",
   "autoload": {
-    "psr-4": { "SlimPHPMiddleware\\": "./src" }
+    "psr-4": { "AaronSaray\\SlimPHPMiddleware\\": "./src" }
   }
 }
