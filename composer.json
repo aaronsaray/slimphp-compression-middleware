@@ -2,6 +2,6 @@
   "name": "aaronsaray/slimphp-middleware",
   "type": "library",
   "autoload": {
-    "psr-4": { "SlimMiddleware": "." }
+    "psr-4": { "SlimMiddleware\\": "." }
   }
 }
