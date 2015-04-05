@@ -5,7 +5,7 @@
  * @author Aaron Saray
  */
 
-namespace SlimMiddleware;
+namespace AaronSaray\SlimMiddleware;
 
 /**
  * Class Compress
