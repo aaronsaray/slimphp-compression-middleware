@@ -2,6 +2,8 @@
 
 This is a collection of useful Slim PHP Middlewares.
 
+[![Project Status](https://stillmaintained.com/aaronsaray/SlimPHPMiddleware.png)](https://stillmaintained.com/aaronsaray/SlimPHPMiddleware)
+
 ### Compression Middleware
 Need to add gzip compression to your output but don't have access to the server configuration?  This middleware is for you!
 
