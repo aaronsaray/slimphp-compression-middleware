@@ -1,29 +1,15 @@
-# SlimPHP Middleware
+# SlimPHP Compression Middleware
 
-This is a collection of useful Slim PHP Middlewares.
-
-[![Project Status](https://stillmaintained.com/aaronsaray/SlimPHPMiddleware.png)](https://stillmaintained.com/aaronsaray/SlimPHPMiddleware)
-
-### Compression Middleware
-Need to add gzip compression to your output but don't have access to the server configuration?  This middleware is for you!
+Need to add gzip compression to your output but don't have access to the server configuration?  This is a middleware for [SlimPHP Framework](http://www.slimframework.com/) to use HTTP+gzip compression.
 
 **Please note: If you CAN add this functionality to your server config, please do that instead.**
 
 ## Installation Instructions
 
-Add the following to your composer.json for now...
+Install the latest version with
 
-```JSON
- "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/aaronsaray/SlimPHPMiddleware"
-    }
-  ],
-
- "require": {
-   "aaronsaray/SlimPHPMiddleware": "dev-master"
- }
+```bash
+$ composer require aaronsaray/php-flow-control
 ```
 
 ## Usage Instructions
