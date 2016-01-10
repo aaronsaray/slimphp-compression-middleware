@@ -9,7 +9,7 @@ Need to add gzip compression to your output but don't have access to the server 
 Install the latest version with
 
 ```bash
-$ composer require aaronsaray/php-flow-control
+$ composer require aaronsaray/slimphp-compression-middleware
 ```
 
 ## Usage Instructions
