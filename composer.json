@@ -1,6 +1,16 @@
 {
-  "name": "aaronsaray/SlimPHPMiddleware",
+  "name": "aaronsaray/slimphp-compression-middleware",
+  "description": "GZip Compression Middleware for SlimPHP",
+  "homepage": "https://github.com/aaronsaray/slimphp-compression-middleware",
+  "license": "MIT",
   "type": "library",
+  "authors": [
+    {
+      "name": "Aaron Saray",
+      "email": "aaron@aaronsaray.com",
+      "homepage": "http://aaronsaray.com"
+    }
+  ],
   "autoload": {
     "psr-4": { "AaronSaray\\SlimPHPMiddleware\\": "./src" }
   }
